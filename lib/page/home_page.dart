@@ -1,5 +1,3 @@
-
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -11,10 +9,9 @@ class HomePage extends StatelessWidget {
     final int days = 30;
     final String name = "Sanvi";
 
-
-    return  Scaffold(
+    return Scaffold(
       appBar: AppBar(
-        title:Text("Catalog App") ,
+        title: Text("Catalog App"),
       ),
       body: Center(
         child: Container(
