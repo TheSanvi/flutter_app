@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app/page/utils/routes.dart';
 
 
-class LoginPage extends StatelessWidget {
-  const LoginPage({super.key});
+
+class LoginPage
+    extends StatelessWidget {
+    const LoginPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -13,14 +15,15 @@ class LoginPage extends StatelessWidget {
             child: Column(
           children: [
             Image.asset(
-              "assets /images/login_img.png",
+              "images/vsjpl.png",
               fit: BoxFit.cover,
             ),
+
             const SizedBox(
               height: 20.0,
             ),
             const Text(
-              "Welcome",
+              "Welcome ",
               style: TextStyle(
                 fontSize: 28.0,
                 fontWeight: FontWeight.bold,
